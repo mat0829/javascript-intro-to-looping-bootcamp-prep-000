@@ -11,6 +11,7 @@ return array
 }
 
 function whileLoop(n) {
+<<<<<<< HEAD
   while (n > 0) {
   console.log(--n)
   }
@@ -26,3 +27,10 @@ function doWhileLoop(array){
 
   return array
 }
+=======
+  var n = 100;
+  while (n > 0) {
+    console.log(--n)
+  }
+}
+>>>>>>> 75b3e71829bfbbe40c3326bfcadb2252a35eae90
